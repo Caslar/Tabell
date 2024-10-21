@@ -68,8 +68,8 @@
                     <td>Løp så langt man overhode greier + superset med stairmaster</td>
                 </tr>
                 <tr>
-                    <td class="En">26.12.24</td>
-                    <td class="En">Løping/cardio</td>
+                    <td>26.12.24</td>
+                    <td>Løping/cardio</td>
                 </tr>
             </tbody>
         </table>
@@ -83,11 +83,16 @@
                 width: 100%;
             }
         }
-
-        .En{
-            background-color: aquamarine;
-           justify-content:center ;
+        thead:hover{
+            background-color: #e0e0e0;
         }
+        tr:hover{
+            background-color: #e0e0e0;
+        }
+        tbody>tr:nth-child(odd):hover{
+            background-color: #e0e0e0;
+        }
+        
         table{
             border-collapse: collapse;
             border: 10px solid black;
@@ -114,12 +119,12 @@
             border: 10px solid lightslategray;
         }
         tbody>tr:nth-child(odd){
-            background-color: white;
+            background-color: lightcyan;
             
         }
         body{
             color: #333333;
-            background-color:antiquewhite;
+            background-color:blue;
         }
     </style>
 </body>
